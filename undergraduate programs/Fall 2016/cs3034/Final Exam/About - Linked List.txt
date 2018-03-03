@@ -1,0 +1,14 @@
+Final
+
+- Linked List - Split Linked List, Replace Nodes, Print Nodes, Deletes Nodes -
+
+The first functionaility is adding the nodes to the linked list and printing the nodes as well. This was done by creating a for loop
+and adding all the nodes to the linked list and then iterating the nodes as they are printed in a while loop. 
+
+Values divisble by 3 are replaced by 100 and values that are divisble by 10 is replaced with 1000. The pointer for each
+value is changed from the current node to the headnode, so after each itteration, the pointer node (current) is changed.
+
+The linked list is then iterated and deletes the values that are greater than 50 (Only the nodes with 100 and 1000 are deleted).
+
+Split linked list is a linked list split in half. Half containing only the first linked list, while the second half contains the
+other half of the linked list. This is the same linked list from the list that had deleted the nodes with a value > 50.

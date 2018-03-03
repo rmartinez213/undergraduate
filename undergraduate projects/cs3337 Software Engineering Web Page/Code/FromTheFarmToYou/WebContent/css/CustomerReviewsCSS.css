@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.Reviews {
+	background-color: #A8CD1B;
+	margin-top: 40px;
+}
+
+h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h3 {
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	padding-top: 75px;
+	text-align: center;
+}
+
+#header {
+	background-color: #005A31 !important;
+	margin-top: 40px !important;
+}
+
+body {
+	background-color: #005A31;
+	color: #F3FAB6;
+}
+
+#main {
+	-moz-column-count: 2;
+	-moz-column-gap: 1em;
+	-moz-coolumn-rule: 1px solid black;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1em;
+	margin-bottom: 100px !important;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #005A31;
+}

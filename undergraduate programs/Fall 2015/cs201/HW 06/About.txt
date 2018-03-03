@@ -1,0 +1,25 @@
+Homework 6
+
+- Problem 1 - X calculation - 
+Enter an x value returns a calculation us another method (when we were first tought that we could use method).
+
+- Problem 2 - Students test scores -
+Enter one score for each student. It will then return the letter grades for each student and the average of the five students.
+
+- Problem 3 - Requirement Validation - 
+Enter a string. The program will then return whether each case was met.
+
+- Problem 4 - Random row and column -
+Enter a row and column value. This will then return random char values with the amount of rows and columns enetred previously.
+
+- Problem 5 - Token game -
+The token game is a game where there is a randomly generated value of tokens. The player who picks up the last token from the pile loses.
+The user will be playing against a random generated ai. The user will be given an easy or hard ai. 
+Easy ai will choose any value below half of the amount left in the pile. Whereas the hard ai will chose based off 
+an mathematical algorithm. Upon finishing the game it will ask the user if they want to play the Token game again.
+It will then generate a random pile, random difficulty and random player start
+
+- Problem 6 - Lucky roll -
+Lucky roll is a game that will give you a role of two die. You only win if both die add to 5 or 10. Otherwise,
+if both add to 4, 7 or 12 then you lose. Lastly, if both die add to 2, 3, 6, 8, 9, 11, then you reroll both die.
+Both die keep rerolling until the first pair is equal to the second pair amount or lose if the second pair roll is equal to 7.

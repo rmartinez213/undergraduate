@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+	<head>
+	
+		<title> 
+			Lab 3 
+		</title>
+		
+		
+		
+		<script src = "script.js"> </script>
+		<script src = "jquery-3.1.0.min.js"> </script>
+		
+		<script>$(document).ready(function(){
+			$("input").click(function(){
+				$("input").css("color", "yellow");
+			});
+		});
+		</script>
+		
+		
+	</head>
+	
+	
+	<body>
+	
+		<!-- This creates form, where we then  -->
+		<form id = "first_name_form" name = "email_form"
+		action = "Lab3.html" method = "get">
+		
+		<label for = "first_name"> First Name: </label>
+		<input type = "text" id = "first_name_id" SIZE = "30">
+		<span id = "first_name_error">*</span>
+
+		
+		<br>
+		
+		<label for = "last_name"> Last Name: </label>
+
+		<input type = "text" id = "last_name_id" SIZE = "30">
+		<span id = "last_name_error">*</span>
+
+		
+		<br>
+	
+		<label for = "email"> Email: </label>
+
+		<input type = "text" id = "email_id" SIZE = "30">
+		<span id = "email_error">*</span>
+
+		<br>
+		
+		
+		<label> </label>
+		<input type = "button" id = "submit_request"
+			value = "Submit Request">
+		
+		</form>
+		
+		
+	</body>
+	
+</html>

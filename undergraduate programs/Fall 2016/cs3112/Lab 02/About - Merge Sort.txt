@@ -1,0 +1,9 @@
+Merge sort
+
+- Merge Sort -
+
+This program consists of creating a merge sort for my Analysis of Algorithms class.
+Merge sort consisted of creating 3 different arrays. The original array has the data of the unsorted list,
+while the two other arrays are used for the sorting. The Left side of the array is given values of the left most of
+the array, while the right of the array is given the second half of the array. The values are ultimetly sorted as 
+a divide and conquer technique.

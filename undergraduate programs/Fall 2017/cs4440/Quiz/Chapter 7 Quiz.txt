@@ -1,0 +1,111 @@
+csns Robert's Profile  |  Logout
+Home
+Department
+Resources
+Help
+CS4440 - 2
+Quiz 5 - Deadlocks
+A deadlocked state occurs whenever ____.
+
+ a process is waiting for I/O to a device that does not exist 
+ the system has no available free resources 
+ a process in a set is waiting for an event that can only be caused by another process in the set 
+ a waiting process is never able to change state because the resources it has requested are held by other waiting processes 
+In general, we cannot prevent deadlocks by denying _____ condition.
+
+ 
+
+ hold and wait 
+ mutual exclusion 
+ circular wait 
+ no preemption 
+A deadlock state in that a process P0 is holding resources and waiting to acquire additional resources is called
+
+ 
+
+ hold and wait 
+ mutual exclusion 
+ circular wait 
+ no preemption 
+One necessary condition for deadlock is ______, which states that there is a chain of waiting processes whereby P0 is waiting for a resource held by P1, P1 is waiting for a resource held by P2, and Pn is waiting for a resource held by P0.
+
+ hold and wait 
+ mutual exclusion 
+ circular wait 
+ no preemption 
+One necessary condition for deadlock is ______, which states that a resource can be released only voluntarily by the process holding the resource.
+
+ hold and wait 
+ mutual exclusion 
+ circular wait 
+ no preemption 
+In a system resource-allocation graph, ____.
+
+ a directed edge from a process to a resource is called an assignment edge 
+ a directed edge from a resource to a process is called a assignment edge 
+ a directed edge from a resource to process is called a request edge 
+ None of the above 
+A cycle in a resource-allocation graph is ____.
+
+ a necessary and sufficient condition for deadlock in the case that each resource has more than one instance 
+ a necessary and sufficient condition for a deadlock in the case that each resource has exactly one instance 
+ a sufficient condition for a deadlock in the case that each resource has more than once instance 
+ is neither necessary nor sufficient for indicating deadlock in the case that each resource has exactly one instance 
+_______ provides a set of methods to ensure that at least one of the necessary conditions cannot hold.
+
+ Pretending that deadlocks never occur 
+ Deadlock avoidance 
+ Deadlock prevention 
+ Deadlock recovery 
+Which of the following statements is true?
+
+ A safe state is a deadlocked state. 
+ A safe state may lead to a deadlocked state. 
+ An unsafe state is necessarily, and by definition, always a deadlocked state 
+ An unsafe state may lead to a deadlocked state. 
+Suppose that there are twelve resources available to three processes. At time 0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently allocated to each process. Which of the following correctly characterizes this state?
+
+ 
+
+Process            Maximum Needs       Current Allocation
+
+      P0                            10                              5
+
+      P1                              4                              2
+
+      P2                              9                              2
+
+ It is safe. 
+ It is not safe. 
+ The state cannot be determined. 
+ It is an impossible state. 
+Suppose that there are 12 resources available to three processes. At time t0, the following data is collected. The table indicates the process, the maximum number of resources needed by the process, and the number of resources currently owned by each process. Suppose that, at time t1 process P2 requests and is allocated one more resource.Which of the following correctly characterizes this state?
+
+ 
+
+Process            Maximum Needs        Currently Owned
+
+      P0                            10                               5
+
+      P1                             4                                2
+
+      P2                             9                                2
+
+ It is safe. 
+ It is unsafe 
+ The state cannot be determined. 
+ It is an impossible state. 
+Assume there are three resources, R1, R2, and R3, that are each assigned unique integer values 18, 20, and 15, respectively. What is a resource ordering which prevents a circular wait?
+
+ R1, R2, R3 
+ R3, R2, R1 
+ R3, R1, R2 
+ R2, R1, R3 
+A _____ could be preempted from a process.
+
+ mutex lock 
+ CPU 
+ semaphore 
+ file lock 
+Save  Finish
+Copyright © 2012-2017, Chengyu Sun. All rights reserved.

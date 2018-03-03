@@ -1,0 +1,8 @@
+Lab1 
+
+- Problem 1 - Introduction to C++ -
+
+This was my first C++ program and it consisted of how it is build (in terms of it's skeleton).
+Considering the '#include <iostream>' is a neccessity in order to print to the console. 
+This assignment just consisted of printing to the console as majority of the class time was spent on
+downloading and configuring C++ to our IDE.

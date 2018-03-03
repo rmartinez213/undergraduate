@@ -1,0 +1,11 @@
+Class: cs120 (Introduction to website development)
+Taken: Winter 2015
+
+About: cs120 Introduction to Web Site Development is an introductory course on
+client-side web programming using the following technologies: HTML 5, CSS 3 and
+JavaScript. My first programming class consisted of creating html web pages. Each
+homework assignment consisted of applying what we learned in the class. Also, the web
+pages consist of our hobbies and what we like.
+
+Notice: The webpages may not load up properly due to using absolute URL for images
+that may be a deadlink. This class had alot of freedom to do 

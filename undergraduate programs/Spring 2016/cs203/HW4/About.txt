@@ -1,0 +1,8 @@
+Backtracking
+
+This program implements Java fX.
+
+The program is meant to implement a backtracking to an 8x8. Simply, their is an algorithm that is used to
+verify that each queen does not hit another queen diagonly, side to side or up to down. Backtracking will
+allow the program to backtrack if it cannot complete a successful solution. This program can be somewhat
+compared to finding to a solution to sudoku.

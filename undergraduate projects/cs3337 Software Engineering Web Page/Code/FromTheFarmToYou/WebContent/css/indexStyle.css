@@ -1,0 +1,182 @@
+.home {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	width: 80%;
+	background-color: rgba(51, 204, 255, 0.7);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 45px;
+}
+
+.hold {
+	background-image:
+		url("http://image.noelshack.com/fichiers/2015/48/1448773730-upfeathers.png");
+}
+
+}
+h1, h2, h3, h4, h5, h46, p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+#myCarousel .carousel-caption {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: left;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	text-shadow: none;
+}
+
+#myCarousel .list-group {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#myCarousel .list-group-item {
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+#myCarousel .list-group .active {
+	background-color: #eee;
+}
+
+@media ( min-width : 992px) {
+	#myCarousel {
+		padding-right: 33.3333%;
+	}
+	#myCarousel .carousel-controls {
+		display: inline;
+	}
+}
+
+@media ( max-width : 991px) {
+	.carousel-caption p, #myCarousel .list-group {
+		display: none;
+	}
+}
+
+body {
+	min-height: 100%;
+	paddin: 0;
+	marign: 0;
+	/*background-color:rgba(255,163,26,0.3) !important;*/
+	/*background-image:url('http://image.noelshack.com/fichiers/2015/48/1448773730-upfeathers.png')*/
+}
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT     
+========================================================  */
+
+/*============================================================
+BACKGROUND COLORS
+============================================================*/
+li:hover {
+	background-color: rgba(95, 176, 228, 0.5);
+}
+
+.label, .glyphicon {
+	margin-right: 5px;
+}
+
+/* End of carousel/top part of site */
+.textOverImage {
+	font-style: oblique;
+	font-size: 1.7em;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.textOverImage:hover {
+	background-size: 110%;
+}
+
+.textOverImage:after {
+	position: absolute;
+	top: 87%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space: pre-wrap;
+	overflow: hidden;
+	background-color: rgba(255, 163, 26, 0.3) !important;
+	color: white;
+	padding: 0 8px;
+	content: attr(data-text);
+	transition: 0.5s;
+	font-style: oblique;
+}
+
+.textOverImage:hover:after {
+	top: 0;
+	padding: 8px;
+}
+
+.textOverImage:first-line {
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em;
+}
+
+.center-block {
+	width: 250px;
+	padding: 10px;
+}
+
+#sec { <<<<<<<
+	HEAD background-image:
+		url(http://image.noelshack.com/fichiers/2015/48/1448773730-upfeathers.png)
+		!important;
+}
+=======
+background-image
+:
+ 
+linear-gradient
+(rgba(0
+,
+0,0,0
+.7
+)
+,
+rgba
+(0
+,
+0,0,0
+.7
+))
+,
+url
+(http
+:
+//image
+.noelshack
+.com
+/fichiers/2015/48/1448773730-upfeathers
+.png
+)
+ 
+!
+important
+;
+
+
+}
+>>>>>>>
+98
+fd36533a9a518cfbd1b0ac3f2126212901b527

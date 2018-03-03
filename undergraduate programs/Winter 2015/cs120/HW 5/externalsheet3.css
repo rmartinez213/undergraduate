@@ -1,0 +1,6 @@
+body > p + h3 {background-image:url(http://fpswin.com/wp-content/uploads/2011/12/cfMOq.jpg);}
+sub, sup{text-transform:capitalize; color:green}
+p.something{ color : green;
+	text-decoration: overline
+ }
+p.green{background-color:green;color:black;}

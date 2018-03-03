@@ -1,0 +1,73 @@
+/*
+!important;   <--Text used to override bootstrap
+*/
+
+#pad{
+    padding: 5px 10px 5px 10px !important;
+}
+
+nav ol {
+    background-color: teal !important;
+    color: white !important;
+}
+
+a{
+    color: white  !important;
+}
+
+#TopHeader{
+    color: teal !important;
+}
+
+#SchoolPicture1{
+    padding: 0 0 0 100 !important;
+    float: left !important;
+}
+
+#SchoolPicture2{
+    padding: 0 100 0 0 !important;
+    float: left !important;
+}
+
+#InterestPicture{
+    float: left !important;
+}
+
+#creativeid{
+    padding: 10px !important;
+}
+
+#Colorid{
+    background: 
+}
+
+
+/*
+This code was from the following url source:
+http://stackoverflow.com/questions/15318032/divide-html-page-in-half-with-no-overlapping
+*/
+
+html {
+    font-size: 62.5% !important;
+}
+
+body {
+    background-color: white !important;
+    color: black !important;
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 1.4em !important; /* equiv 14px */
+    line-height: 1.5 !important; /* adapt to your design */
+}
+
+/* you shall not pass */
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word !important;
+}
+
+.left {
+    float: left !important;
+}
+
+.w50 {
+    width: 50% !important;
+}

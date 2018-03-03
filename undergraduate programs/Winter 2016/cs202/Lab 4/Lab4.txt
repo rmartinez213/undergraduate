@@ -1,0 +1,6 @@
+1. 
+Key word for Inheritance is extends.
+
+Key word for Interface is implements.
+
+2. No, because we would be doing multiple inheritance. This also results in a hierarhy would result as in issue if we did it like that.

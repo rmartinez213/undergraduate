@@ -1,0 +1,2 @@
+All of homework 1 consists of small exercises to get familiar with the syntax
+and overall language of Java. The us of integers is used in all of the homework.

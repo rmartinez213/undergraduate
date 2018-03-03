@@ -1,0 +1,11 @@
+1.The action shows a table that lists a column of last names from sales people, and another column that shows initials.
+2. This action shows the Tracks table along with the fields that are listed from this table.
+3.This action shows that any name other than maria is accepted except for names such as Maria.
+4.This action strictly shows the last names from members who who do not have an email.
+5.This action shows the last names from the members tables, strictly only when their name is Roberto.
+
+6. SELECT LastName, MemberID FROM Members WHERE NOT SalesID = '2';
+7. SELECT Title FROM Titles WHERE Genre = 'Alternative';
+8. SELECT Title FROM Titles WHERE NOT Genre = "Jazz";
+9. SELECT DISTINCT Genre FROM Titles;
+10. SELECT Region FROM Members WHERE Gender='M' and City ='A';

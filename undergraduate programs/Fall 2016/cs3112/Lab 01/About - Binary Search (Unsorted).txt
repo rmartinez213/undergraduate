@@ -1,0 +1,6 @@
+Lab 1
+
+- Binary Search - 
+
+Binary search is implemented in this program. Firstly, we sort the program using insertion sort.
+Then after, binary search is implemented by calling the binary search method and passing in the sorted array.

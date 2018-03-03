@@ -1,0 +1,9 @@
+H Tree
+
+This program was created using Java FX. 
+
+H tree is a program that displays a number of sequential H's based on the amount that the user enters
+into a text box. The set up for the scene and the border came first as those were initially the requirements for
+the assignment. A setOnAction was created so that when the user clicks "enter" then it submits the number into the
+setOrder method and thus call the paint method so it can then display the H. The H is then created using points and
+connecting them via the H  and linear algebra. Lastly, the H is created using recursion.

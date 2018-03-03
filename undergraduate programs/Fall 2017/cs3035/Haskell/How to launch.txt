@@ -1,0 +1,12 @@
+Go to directory...
+
+--How to run a file (Functions)
+
+C:\Users\rmart> FileName.hs
+
+
+--How to run a file (That contain main)
+
+C:\Users\rmart> ghc --make FileName.hs
+C:\Users\rmart> FileName
+

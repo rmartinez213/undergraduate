@@ -1,0 +1,30 @@
+Final
+
+The final consisted of using object oriented programming.
+
+The objective of this program is to to create an abstract class that are used in both glass and cup class.
+The object oriented part of the final conisted of creating objects in the driver class and using them individualy
+to display the contents to the user such as the contents in the glass and cup. 
+
+First the volume (liquids) in the cup to 0. Then get the exact volume of the cup itself. Upon getting the volume of the
+cup, liquid is then poured into the cup. If the amount of liquid poured into the cup is greater than the volume of the cup
+then it will display how much liqued was spilled. After, liquid is then poured out of the cup. In the pour operation
+the new volume is then set and is lastly displayed once again.
+
+Displays this when running the program:
+
+-----Glass Content-----
+Youre current contents in CC is: 0.0ml
+The volume in the glass is: 226.1946710584651
+You have poured: 300.0
+You Spilled: 73.8053289415349ml
+You poured out: 80.0ml
+Youre current contents in CC is: 220.0ml
+
+
+-----Cup Content-----
+Youre current contents in CC is: 0.0
+The volume in the glass is: 100.53096491487338
+You have poured: 70.0ml
+You poured out: 35.0ml
+Youre current contents in CC is: 35.0

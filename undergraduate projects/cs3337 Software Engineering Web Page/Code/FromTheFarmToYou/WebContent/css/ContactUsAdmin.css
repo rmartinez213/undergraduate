@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#HeaderTop {
+	background-color: #005A31;
+	color: #F3FAB6;
+}
+
+.Reviews {
+	background-color: #A8CD1B;
+	margin-top: 40px;
+}
+
+h1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h3 {
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	padding-top: 75px;
+	text-align: center;
+}
+
+#header {
+	background-color: #005A31 !important;
+	margin-top: 40px !important;
+}
+
+body {
+	background-color: #005A31;
+	color: #F3FAB6;
+}

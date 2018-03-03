@@ -1,0 +1,23 @@
+Homework 2 
+
+- Problem 1 - Two card poker in Python! -
+
+Two card poker in python is similar to poker, but instead it is using only two cards.
+
+The program is comprised of a map, a list of randomly shuffled numbers, and a list that has concatenated ranks and suits.
+The user is then asked if they want to play and will ask the user how much they are willing to bet. The user will
+then recieve two cards. The two cards of the user has to be higher than the two cards of the opponent, but the user 
+can only see 1 card that the opponent recieved from the deck. 
+
+The rank is based on the card that the player got and is then modded (%) by 13.
+
+0 - two to of hearts...  8 - ten of hearts... 9 - Jack of hearts 10 - Queen of hearts 11 - King of hearts 12 - Ace of hearts
+
+Suit is based on the value of the card that the player got and is then divided (/) by 13.
+
+0 - Hearts
+1 - Clubs
+2 - Diomonds
+3 - Spades
+
+The user loses if they bet more than what they have and lose that bet or if they lose all their money.

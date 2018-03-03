@@ -1,0 +1,25 @@
+Homework 7
+
+- Problem 1 - Test scores -
+The user will enter how many students took the test and will then ask for their scores.
+Upon entering all the students scores it will then display the average and how many students were above, equal or below the student average.
+
+- Problem 2 - Random elements -
+Random elements program will display the random numbers generated based on the amount entered. It will display/sort
+the values based on array, odd indexes, even elements, reverse, first, middle, last.
+
+- Problem 3 - Random sentence -
+This program randomly generates a sentence based on preseted arrays. The sentence includes a noun, adjective, verb, 
+preposition, and article. 
+
+- Problem 4 - Lotory ticket and user ticket -
+This program generates a random winning ticket and compares each number to the 10 numbers that the user entered.
+Each winning ticket will add $100,000 to the user's winnings.
+
+- Problem 5 - Random number table counter -
+This program generates a 10x10 table. The numbers generated in the table are based on the user entered value.
+Ex. Enter 5, values in the table are ranged from 1 - 5. It will then display the sorted numbers with how many times they appeared onto the table.
+
+- Problem 6 - Sales report - 
+Enter how many different cookies there are. Then enter the name of the cookies. Finally, enter the sales of each cookie.
+Upon entering all the information there will be a sales report that will show the most, least cookies sold as well total sold.

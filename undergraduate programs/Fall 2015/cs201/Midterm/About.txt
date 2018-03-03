@@ -1,0 +1,7 @@
+Midterm
+
+- Midterm Question 1 - Fibonacci generate -
+Enter how many fibonacci numbers you want to generate. Upon entering, there will be a list of fibonacci values.
+
+- Midterm Question 2 - Square list -
+Enter how many rows (the amount of squares values wanted). Then enter how many columns you want (squared values you want).

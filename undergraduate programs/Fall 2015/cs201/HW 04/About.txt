@@ -1,0 +1,23 @@
+Homework 4
+
+- Problem 1 - GPS Coordinate -
+Input 4 different city coordinates. This will return the area in between the four city locations.
+
+- Problem 2 - License Plate Generator - 
+Run the program and it will randomly generate a license plate containing 3 letters and 3 numbers.
+
+- Problem 3 - Alhabetize 3 Cities -
+The user inputs 3 cities and alphbetizes them in order.
+
+- Problem 4 - Social Security Authentication -
+Input the proper ssn format "xxx-xx-xxxx" which authenticates it.
+
+- Problem 5 - Phone Number -
+Enter a phone number and it returns the number, but formated.
+
+- Problem 6 - Paycheck Calculation -
+Enter name, hours worked, pay rate. This will return the net pay along with showing all deductions.
+
+- Problem 7 - Paycheck Converter - 
+Enter date, name and check amount. It then converts all values entered into a check format. Inclusing numbers
+to letter representation

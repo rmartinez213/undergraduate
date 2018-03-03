@@ -1,0 +1,11 @@
+Final
+
+- Question 1 - Class Grading [Using arrays] -
+The final for cs201 consisted of short answers/multiple choice/ fill in the blank and the remaining of the
+final consisted of programing. Programming portion contained an hour and 30 minutes.
+
+This program consisted of different grading criterias. The criterias consisted of using arrays
+only to store the values of the students. The user enters how many students are in the class and 
+asks for how many tests are their. The program will then ask each individual score for each student then 
+upon entering all student score it will then ask the user for the max tests points. Then it will
+display each student average from all scores then display class average. 

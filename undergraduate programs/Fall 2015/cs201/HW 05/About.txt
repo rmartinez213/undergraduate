@@ -1,0 +1,19 @@
+Homework 5
+
+- Problem 1 - Inclusive numbers -
+The user enters 2 different integer values and returns the math operation of each value based on the two numbers
+given. First number should be lower than the second.
+
+- Problem 2 - Store graph sale -
+The user will enter a different input sale figure for each store. Upon entering all 5, the user will then see "*"
+that represents $100 made. Such as 623 is ******.
+
+- Problem 3 - Letters and alphabets - 
+The user enters a string and determines how many vowels, consonants, replaces the vowels with
+"_" and position of the vowels.
+
+- Problem 4 - Binary to decimal and decimal to binary conversion -
+In the menu input the conversion that you want, then input the decimal or binary and view your converstion.
+
+- Problem 5 - Triangle graphics -
+The user enters a value and the triangle will be as long as the value entered.

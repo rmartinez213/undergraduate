@@ -1,0 +1,14 @@
+JavaFX Quiz
+
+This program implements Java FX.
+
+The program implements multiple features.
+First, the program allows the user to change the text upon entering it into the text box.
+Second, the program allows you user to change the color of the text box that the user entered.
+Third, you can change font attributes such as bolding, itelicizing, and underlining.
+Lastly, set the the position of the text.
+
+Mainly all were created with conditional if statements. The idea was that the user had multiple options and would
+more than likely click other options. For that reason conditional if statements were neccessary for creating this
+program so that events would be triggered in each situation. Setting up vertical and horizontal boxes with the pane
+was easy to achieve.

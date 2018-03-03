@@ -1,0 +1,19 @@
+1. Database manager could use "Exists" to verify if the applications will work.
+2.
+A. Inner queries
+B. Outer Query
+
+3. Nested subqueries
+
+4. Correlated subquiries differ from other subquires, because they are always dependent on the outer information.
+5. Using "IN" will display the actual query table with information, while using "Exists" will display True or False, depending on the statement.
+6. This query returns error, because we cannot use "=" before a sub query. In this case we would use "IN".
+7.
+A. Your output would display a similar table, but it will only display Lincoln (Town car) and Ford (Crown Victoria), because they are heavier than all of the monster cars.
+B. Your output would display a s,ilar table, but it will display Totyota (Corolla) and Toyota (Prius), because their weight is less than a car from the monsters table.
+8. This query lists the last names of those who have a corresponding SalesID from studios table and members table.
+9. This query counts how many artists have "The" in their name.
+10. This query will display the artists who have atleast more than 2 people in the band who are artist.
+11. SELECT ArtistName FROM Artists A WHERE ArtistID IN
+(SELECT ArtistID FROM XrefArtistsMembers WHERE MemberID 
+IN(SELECT MemberID FROM Members WHERE Gender LIKE "f"));

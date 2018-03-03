@@ -1,0 +1,73 @@
+//Create a stack... implemented to each method
+Stack Stackdata = new Stack();
+
+//Push all tree nodes into the stack created...
+while size down to 0
+
+//All nodes elements are in stack now.
+
+
+//In-order: Left, Parent, Right
+Non-Recursive InOrder(x)
+
+	Let Stackdata be a stack
+	
+	if (x is not NIL)
+		Stackdata.push(x)
+	
+	while x not equal to NIL
+		
+		if (x.left is NIL and x.right is NIL)
+			Stackdata.pop(x)
+			
+		else if(x.left is NIL)
+			y = Stackdata.peek()
+			
+		if (y.left != NIL and not visited)
+			Stackdata.push(y.left)
+			
+		else
+			top = Stackdata.pop()
+			print(top)
+			
+			if(Stackdata.right != NIL)
+				Stackdata.push(top.right)
+			
+		print x.right
+		
+		
+//Pre-Order: Parent, Left, Right
+Non-Recursive PreOrder(x)
+	
+	Let Stackdata be a stack
+	
+	print x
+	
+	while !Stackdata.emptyStack not equal to NIL
+		A.pop(x)
+		
+		if(x.left is not equal to NIL)
+			Stackdata.push(x.left)
+			
+		if(x.left is not equal to NIL)
+			Stackdata.push(x.right)
+		
+//Pre-Order: Left, Right, Parent
+Non-Recursive PostOrder(x)
+
+	Let Stackdata be a stack
+	
+	
+	while !Stackdata.emptyStack not equal to NIL
+		if(x.left is not NIL)
+			Stackdata.push(x.left)
+			print(x.left)
+			x.left = NIL
+		
+		if(x.right is not NIL)
+			Stackdata.push(x.right)
+			print(x.right)
+		
+		
+		
+		

@@ -1,0 +1,5 @@
+1. SELECT  ArtistName, COUNT(MemberID) AS "Number of members" FROM Members JOIN XrefArtistsMembers USING (MemberID) JOIN Artists USING (ArtistID) GROUP BY ArtistName;
+2. SELECT Genre, COUNT(DISTINCT Title) AS "Number of Titles" FROM Titles GROUP BY Genre HAVING COUNT(Genre) > 2;
+3. SELECT Genre, AVG(LengthSeconds) AS "Average Length Seconds" FROM Tracks JOIN Titles USING(TitleID) GROUP BY Genre HAVING COUNT(TitleID) >= 1;
+4. SELECT Genre, COUNT(Title) AS "Number of Titles" FROM Tracks JOIN Titles USING(TitleID) GROUP BY Genre HAVING COUNT(TitleID) >= 0;
+5. SELECT COUNT(ArtistID) AS "Artist who recorded alternative" FROM Artists JOIN Titles USING(ArtistID) JOIN Genre USING(Genre) WHERE Genre = 'alternative';

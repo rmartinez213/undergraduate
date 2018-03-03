@@ -1,0 +1,15 @@
+Heap Sort
+
+- Max Heapify -
+
+First, the program contains an pre-sorted array which would be considered the nodes of a heap tree.
+The program first calls the HeapSort method which then calls the Build_Max_Heap tree adn creates the heap tree.
+However, the heap tree is not yet sorted yet.
+
+The heap tree is then sorted by the "Max_Heapify" method where it conducts all the operations of sorting the algorithm,
+specifically line 37-39.
+
+for(int i = (int)Math.floor(A.length / 2) ; i >= 0 ; i--){
+	Max_Heapify(A, i);
+}
+

@@ -1,0 +1,12 @@
+1.
+A. This is a named Column Join, Because it is using the keyword: USING
+B. This is a named Column Join, Because it is using the keyword: USING
+
+2.This query lists the lastnames, membersID and initials from performing a JOIN.
+The person used the SalesID to get the information from the SalesPeople table.
+3.This query lists the Genre and Titles by initially starting from Genre Table then used explicit join to get the information from the titles table.
+4.This query lists the TrackTitle and Title ONLY from the studio that has the name of "MakeTrax",
+It also uses named column join to perform this action.
+5.This query is trying to select all the fields, however they are not produced on command, because both tables have relevants fields therefore it wouldn't output anything.
+6. SELECT FirstName, LastName FROM Members JOIN XrefArtistsMembers USING(MemberID)
+JOIN Artists USING(ArtistID) WHERE ArtistName = "The Bullets" ORDER BY LastName DESC;

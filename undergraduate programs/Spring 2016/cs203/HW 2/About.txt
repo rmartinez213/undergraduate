@@ -1,0 +1,13 @@
+Homework 2
+
+- Problem 1 - Koch snowflake
+
+This program implements Java FX.
+
+This program is similar to the last homework as it implements the same style of Java FX. Instead
+of creating reaccuring Hs we will now create reaccuring Koch snowflakes. These snowflakes will be 
+reaccuring greater as the user enters a bigger number. The action event is triggered when the user
+enters a numbers and clicks the "enter" key. Upon clicking that key, it then calls the setOrder method that 
+will pass in the data and call the paint method. The paint method then creates how many reaccuring koch
+snowflakes based on the number that the user entered. The koch snowflakes are then created using 2d points
+and lines.

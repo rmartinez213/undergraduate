@@ -1,0 +1,8 @@
+- Randomize Hire Assistant -
+
+Since the last hire assistant was inefficient, this program is used to randomize the value in order to prevent 
+the program from continously hiring and firing workers continously. This will then cause the program to higher
+less and fire less.
+
+
+

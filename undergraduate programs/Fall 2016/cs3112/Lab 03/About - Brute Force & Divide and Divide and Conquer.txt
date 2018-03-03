@@ -1,0 +1,10 @@
+Max Sub Array
+
+- Stocks and Maxsub -
+
+First, brute force algorithm is implemented in order to determine which day to buy and sell stocks. This is accomplished
+by creating a double for loop that will set new max for everytime the loop iterates and checks to see if the value is greater
+than the previous. The i value is then stored to a variable, so we could print to the user which day to buy and sell.
+
+Lastly, the maxsub implements a divide and conquer method. We do this by making it recursive iterate recursively
+and applying the divide and conquer so that the time efficiency is nlogn (instead of n^2 like brute force). 

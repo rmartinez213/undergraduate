@@ -1,0 +1,5 @@
+Sorting in Generics
+
+The program simply does 3 different sorting algorithms. Insertion sort, bubble sort, and merge sort.
+These sorting algorithms were implemente using Generics.
+

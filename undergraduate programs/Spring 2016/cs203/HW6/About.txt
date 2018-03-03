@@ -1,0 +1,9 @@
+Time Sorting
+
+This program implements Java FX.
+
+This program is meant to test the efficiency of each algorithm by getting the time of each inidivdual algorithm
+and it's different array sizes. The program implements 6 different algorithms. Selection sort, insertion sort,
+bubble sort, merge sort, quick sort, heap sort are the six different algorithms. Each algorithm has six different
+array sizes (to test sized arrays). The variables are then returned and printed to a pane.
+

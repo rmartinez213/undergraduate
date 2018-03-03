@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Cascading style sheets -->
+
+    <meta charset="utf-8">
+    <title>Intoduction to Styling</title>
+
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+        
+        body {
+            background-color: aqua;
+        }
+        
+        div {
+            border: 2px solid #ccc;
+            background-color: #eee;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Registration Servlet</h1>
+        <p></p>
+    </div>
+
+
+    <p style="text-align: center"> Welcome to the registration servlet! </p>
+    
+
+    <form action="http://cs3.calstatela.edu:8080/cs3220stu120/Lab2/RegistrationServlet" method="post">
+        <div class="container" align="center" class="cols-sm-2 control-label">
+
+            <label for="fullName">Full Name: </label>
+            <input name="name" id="fullName" text="name" placeholder="Enter your full name" class="form-control">
+            <br>
+
+            <label for="email" class="text-center">E-mail address: </label>
+            <input name="email" id="emailid" text="email" placeholder="Enter your email" class="form-control">
+            <br>
+
+            <label for="phoneid">Telephone number: </label>
+            <input name="telephone" id="phoneid" type="tel" placeholder="Enter your telephone number" class="form-control">
+            <br>
+
+            <label for="PASSWORD1">Password: </label>
+            <input name="password1" id="PASSWORD1" type="password" placeholder="Enter your password" class="form-control">
+            <br>
+
+            <label for="PASSWORD2">Re-enter Password: </label>
+            <input name="password2" id="PASSWORD2" type="password" placeholder="Re-enter your password" class="form-control">
+            <br>
+
+            <input type="submit">
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>

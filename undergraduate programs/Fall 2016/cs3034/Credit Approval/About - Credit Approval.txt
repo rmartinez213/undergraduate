@@ -1,0 +1,10 @@
+Credit Approval
+
+- Credit Approval - 
+
+Credit approval contains a credit.csv file that will read the file and store them into a list.
+The file contains over 100 rows of data and 10 columns of data. Data is converted, such that the '?'
+is replaced with '0'. The word, male is converted to '1' and female is converted to '0'.
+
+Data is then split and shows the accuracy of the data in the list using sklearn and metrics. 
+The training test was tested multiple times and shows that it is above 80% majority of the time.

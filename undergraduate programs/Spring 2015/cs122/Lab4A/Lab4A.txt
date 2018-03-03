@@ -1,0 +1,14 @@
+1. A self join is a join that is within a table. An outer join is when it join another seperate table.
+2. Self Join as to uses, one is used for modelling hierarchical relationships within a single table, second you can used it to find pairs of things in a table.
+3. Table aliases are needed in self join, because it needs to identify a specific field.
+4. For this situation you would be using LEFT JOIN. Primarly, because you still want the field to list all possibilities even if there is NULL.
+5. This query is incorrect, because the where clause is wrong. The where clause should include NOT, because we are trying to find everyone, but sanders, so we use the NOT.
+6. It would be true that the first query will display more Artists, because it asks for members or atleast 1, so if one member thats an artists was not born in the 1960s then it would display it. However the second query would will show up with less artists, because then all members that are part in the artists need to be born in the 1960s
+7. The query is incorrect, because it displays the emails and not the sales ID for those indviduals.
+8. Those two queries are the same, because the first query it follows the rules for the Outer Join, and therefore they are signifcant or same as the inner join from the second query.
+9. This query will essentialy list the title of a song and the genre, but it list it in order from the genre perspective.
+10. This query will list titles of songs along with its genre. However it will lists the genre, even though there are no songs for that genre and will list them in order.
+11. Essentilly this query is listing the titles and genre for those who do not have title(song). This query does this by using the Left Outer Join method and also lists them in order by genre letter.
+12. This query is listing the sales ID and Lastname. It uses left join to lists the SalesID even though they are null. The query then states usesing the if statement in order to replace NULL with None as the response. 
+13. This query is listing the SalesID, but is using the Left join in order to list the null as well. The query is then given the ON statement which needs both the region and sales ID to be true. If the past statements were true, and if the ST.Studio ID is null, then it will display the query with all the other statements true.
+14. SELECT DiSTINCT T.Title FROM Titles T LEFT JOIN tracks TR ON(T.TitleID = TR.TitleID AND Tr.RealAUD != "1") WHERE TR.TitleID IS NULL;

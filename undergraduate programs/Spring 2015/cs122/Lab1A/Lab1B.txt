@@ -1,0 +1,16 @@
+1. 
+A) A database is a structured collection of persistent data.
+B) Hierarchical Model (IBM's IMS), Network Model (CODASYL), Relational Model (SQL)
+2.Schemas
+3. Structured in this case means that it is well organized, perhaps a table in a way that organizes everything into each catagory.
+4.The term persisent is a permanent storage for a device.
+5. Nonprocedural means that the person needs to type in his or her own command in order to access the file or implent something to file.
+6.Xrefartistsmembers
+7.Studio
+8.Tracks
+9.Tracks
+10.No fields are similar.
+11.It means that, that the Title's table Studio ID will feature the id only. However if someone wants to go more in depth, then they would open the subdirectory table for Studio table which wil feature all the information needed.
+12.It means that the all the information available in the Salesperson's ID will be availbale in the Members table.
+13.We would look at the Title table and look under the Studio ID field. 
+14.We need all three, because the field of the artist names are under the Artists ID, which is a primary key in the XrefArtistMembers, which therefore has significance with the Members ID Primary Key, that leads into the table of members that includes their contact information.

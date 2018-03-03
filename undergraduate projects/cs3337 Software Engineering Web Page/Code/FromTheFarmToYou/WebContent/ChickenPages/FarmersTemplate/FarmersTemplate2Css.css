@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: tahoma
+}
+
+nav {
+	max-width: 1140px;
+	margin: auto;
+}
+
+.Header {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(img/Farm2HomePic1.jpeg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: white !important;
+}
+
+/**/
+.main-nav-bar {
+	margin-top: 60px;
+	float: right;
+	list-style: none;
+	margin-right: 100px;
+}
+
+/*Sets up the navigation links and margins*/
+.main-nav-bar li {
+	display: inline;
+	margin: 20px;
+}
+
+/*Stylizes the font and size of the navigation bar*/
+.main-nav-bar li a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+/*Creates a hovered link including bar*/
+.main-nav-bar li a:hover {
+	color: #d66722;
+	border-bottom: 2px solid #d66722;
+	transition: all 0.4s ease-in;
+	padding: 20px 0px;
+}
+
+/*Places logo into a webpage and style*/
+.WebsiteLogo {
+	height: 100px;
+	width: 100pxpx;
+	float: left;
+	margin-left: 60px;
+	margin-top: 30px;
+	background: white;
+}
+
+.ServiceText {
+	margin-top: 30px;
+	width: 70%;
+	margin-left: 15%
+}
+
+/*Creates the horizontal orange line after every section*/
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #d66722;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+.OurService {
+	margin-top: 100px;
+}
+
+.OurService h3 {
+	margin-top: 85px;
+	margin-top: 60px;
+}
+
+.arranging {
+	text-align: justify;
+}
+
+.OurService h4 {
+	margin-left: 40px
+}
+
+span {
+	font-size: 40px;
+	color: #d66722;
+	margin-left: 35%;
+}
+
+button span {
+	font-size: 15px;
+	color: white;
+	margin-left: 0%;
+	align: center;
+}
+
+.webcam {
+	margin-top: 100px;
+}
+
+.webcam div {
+	margin-top: 30px;
+	height: 853;
+	width: 480;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Products {
+	margin-top: 100px;
+}
+
+.Products img {
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.Products p {
+	text-align: justify;
+}
+
+.Reviews {
+	margin-top: 100px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(img/Farm2HomePic2.jpeg);
+	padding-top: 80px;
+	padding-bottom: 40px;
+	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover
+}
+
+.Reviews blockquote {
+	margin-top: 60px;
+}
+
+.Reviews p {
+	color: white;
+	line-height: 25px;
+	text-align: justify;
+}

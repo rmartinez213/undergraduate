@@ -1,0 +1,4 @@
+For Programming Assignment 2, 
+I just did 2 part. routing-update-interval: It specifies the time interval between routing updates in seconds. 
+
+And packets Display the number of distance vector (packets) this server has received since the last invocation of this information.

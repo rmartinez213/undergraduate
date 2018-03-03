@@ -1,0 +1,39 @@
+1. The long primitive data type is able to hold more numbers, because it can hold 
+more memory (bits of code), when compared to the int primitive data type. 
+
+2. 
+a. logic error, it is missing the brakets for the second loop, however, it still runs perfectly.
+
+b. logic error, it is missing the String parameter in the constructor, because of the String ("Arthur").
+
+c. logic error, the division sign is "\", it's supposed to be "/"
+
+3. Getters are rarley static, because this wouldn't allow us to use that variable of getters and setters in other classes. Essentially we would be creating instances with that static.
+
+4. Constructors are usually public, because they are shared to other classes. Where 
+as private constructor, it can't be accessed by outside classes.
+
+5. Contains is able to run, because of the "implements" key word that was used to by GeometricShape3d. We also didntinitialize getVolume() in the GeometricShape interface as well.
+
+6. The other object could be initialized outside in a different interface, which uses the the "implements".
+
+
+7. 
+public vampire(VampireStatus currStatus, String Name, String Location){
+this.currStatus = currStatus;
+this.Name = Name;
+this.Location = "Transylvania";
+}
+
+8.
+	public VampireStatus getcurrStatus() {
+		return currStatus;
+	}
+
+	public void setcurrStatus(VampireStatus CurrStatus) {
+		currStatus = CurrStatus;
+	}
+	
+
+9. We get this output, because each String has different memory locations. If we use "==" sign this would result in comparing the two string in different locations, but also since each string has a different memory location, this would then result in returning false. If we use the alternative ".equals()", this would work, because we compae the actual letters of that String.
+

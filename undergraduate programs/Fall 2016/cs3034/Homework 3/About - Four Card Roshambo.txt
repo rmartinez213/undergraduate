@@ -1,0 +1,21 @@
+Homework3
+
+- Problem1 - Four Card Roshambo
+
+
+Roshambo is the classic rock, paper, scissors game. This is a card game involving a deck of 66 cards, 22 of which
+have a picture of a rock, 22 have a picture of a piece of paper, and 22 have a picture of a pair of scissors.
+The game starts as follows: The player and the house are each dealt four cards. The player is asked to make a bet
+that he will win the hand, with the winner of the hand (and bet) being determined by who scores the most points 
+(in the event of a tie, the house wins). The dealer reveals his first card. The player then chooses a card to
+play. A point is scored by whoever wins, or no points if it is a tie. The player then reveals a card, and the
+computer plays a card (assume perfect play). The hand continues, alternating who reveals first, until all four
+cards are played. The player receives the bet amount from the dealer if he wins, otherwise that amount is
+deducted from the player's account. If the player decides, a new hand is dealt and play repeated. Play ends when
+the player runs out of money, or he chooses to quit. 
+
+Not all that was mentioned above was implemented. Like most of the gameplay is not implemented.
+The card shuffle and appropriate string representation is implemented.
+
+
+

@@ -1,0 +1,29 @@
+1.
+A)DELETE FROM Artists WHERE ArtistID NOT IN(SELECT ArtistsID FROM Titles WHERE Genre ='Jazz')
+B)DELETE FROM XrefArtistsMembers WHERE ArtistID NOT IN(SELECT ArtistID FROM Artists);
+2.INSERT INTO Members values (“21”,”Robert”,”X”,”Peanut","Moon","LA","00000","SUN","NULL","000111222”,”FlamingoFliesAtNight@thesun.net","M","1995-00-01","85");
+  INSERT INTO xrefartistsmembers values(“31”,”5”,”0”);
+3.UPDATE Members SET email = Concat(Lastname,"@sonata.org") WHERE MemberID IN(SELECT MemberID FROM Xrefartistsmembers WHERE
+	ArtistID IN (SELECT ArtistID FROM Artists WHERE ArtistName = 'sonata'));
+4.CREATE table products (name varcha(32) not null)engine-innodb;
+  alter table products add column itemnumber int primary key first;
+  alter table products add column itemname varchar(20) null,
+  alter table products add column price varchar(20) null;
+  alter table products add column supplierIS varchar(20) null;
+ 5.CREATE TABLE Suppliers (supplierID INT PRIMARY KEY);
+	alter table suppliers add column suppliername varchar (20) null;
+	alter table suppliers add column contactphone varchar(9) null;
+	INSERT INTO Suppliers values("00","Bigfoot Shoes","123555999");
+	INSERT INTO Suppliers values("01”,”BIG Shoes","2563235798");
+	INSERT INTO Suppliers values("02”,”Green Shoes","981234678");
+	INSERT INTO Suppliers values("03”,”Blue Shoes","323500124");
+6.SELECT COUNT(P.itemname),S.Suppliername FROM ProductsP JOIN SUPPLIERS S USING(supplierID) GROUP BY P.SupplierID;
+7.b.ALTER TABLE PRODUCTS ADD COLUMN Desciptions Varchar(250) NULL;
+8.
+a)DELETE FROM Suppliers WHERE SupplierID = 1;
+b)UPDATE Products SET SuppplierID = NULL WHERE SupplierID = ;
+ 
+ 
+ 
+ 
+ 

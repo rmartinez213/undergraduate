@@ -1,0 +1,56 @@
+csns Robert's Profile  |  Logout
+Home
+Department
+Resources
+Help
+CS4440 - 2
+Linux Exam
+Description
+.Exam Questions:
+
+Write a C program that creates a new process in the Linux system. When a process calls the system call to create a new process, it is deemed the parent process and the newly created process is its child.
+In the C program, define a global variable COUNT and set its value greater than 200.
+#define   COUNT value
+
+From the main(), call the following functions, from child process and parent process respectively:
+child()
+
+parent()
+
+In the child function void  child(void), use a for loop to print the line numbers from 1 to COUNT twith the statement
+ The child process is executing line
+
+In the parent function void  parent(void), use a for loop to print the line numbers from 1 to COUNT with the statement
+ The parent process is executing line
+
+2. Create a zombie process for the above example.
+
+Exam submission:
+
+The script command makes a typescript of everything printed on your terminal.
+
+script [?a] [file]
+
+If the argument ‘file’ is given, script saves all dialogue in ‘file’. If no file name is given, the typescript is saved in the file ‘typescript’.
+
+Your exam should be done on the university server
+Start the script command, as soon as you log on to the server, with your name as the script file. For example, student John Richard should name the script file as ‘JohnRichard’, and start the script with the command:
+script JohnRichard
+
+      3. Complete your program. Compile and execute. Assuming your file name is foo.c, run the  following commands:
+
+cat foo.c
+
+./foo
+
+4. At the end type ‘exit’ to stop the script.
+
+exit
+
+5. Submit  the script file
+
+ 
+
+ 
+
+Copyright © 2012-2017, Chengyu Sun. All rights reserved.

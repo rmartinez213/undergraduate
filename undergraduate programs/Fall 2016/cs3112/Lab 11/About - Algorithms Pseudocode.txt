@@ -1,0 +1,6 @@
+Lab 11 
+
+- Creating Algorithms in Pseudocode -
+
+These two txt files contains the pseodocode of algorithms that were asked for us to create. Unfortunetly, I do not
+have the prompt to the questions.

@@ -1,0 +1,3 @@
+Mirasol Davila - my contributions to the project was programming the distance vector algorithm, 
+update- where the user can update the cost of to two specific server id's then using  the distance 
+vector algorithm it will update it  the topology. Including the disable where user can disable a server is

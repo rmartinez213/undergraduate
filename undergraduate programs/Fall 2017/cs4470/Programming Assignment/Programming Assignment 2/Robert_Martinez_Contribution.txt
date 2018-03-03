@@ -1,0 +1,8 @@
+My contributions includes 2 parts
+
+Server and display.
+
+Each client has their own server and is a client as well so that it is possible of sending packets.
+
+The display, prints out the current routing table. The table is sorted based on the source server id
+to the next hop server id that ultimately displays the cost of each hop.

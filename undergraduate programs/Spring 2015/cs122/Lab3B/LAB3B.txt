@@ -1,0 +1,9 @@
+1. SELECT DISTINCT SalesID, FirstName, LastName FROM SalesPeople JOIN Studios USING(SalesID);
+2. SELECT DISTINCT SalesID, LastName FROM Members WHERE Birthday LIKE '____-07-__';
+3. SELECT StudioName FROM Studios JOIN Titles USING(StudioID) WHERE NOT(Genre = "jazz");
+4. SELECT StudioName FROM Studios JOIN Titles USING (StudioID) ORDER BY StudioID;
+5. 
+A. SELECT Title FROM Titles JOIN Artists USING (ArtistID) JOIN XrefArtistsMembers USING (ArtistID) JOIN
+Members USING (MemberID) WHERE FirstName = "Bryce" AND LastName = "Sanders";
+B. You could change AND to OR so that sql can distinguish.
+6. SELECT FirstName, LastName, WorkPhone, CASE WHEN WorkPhone IS NULL THEN HomePhone END FROM Members;

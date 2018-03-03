@@ -1,0 +1,12 @@
+1.SELECT Lastname,Studioname FROM MEMBERS JOIN Studios USING(Region);
+
+2.SELECT MemberID,Birthday FROM Members WHERE Region ='VT' AND Birthday > ALL(SELECT Birthday FROM Members WHERE Region = "NY");
+
+3.SELECT Tracktitle FROM Tracks JOIN TItles USING(titleid) JOIN Artists USING(ArtistId) WHERE Entrydate > "2003-10-01";
+
+4.SELECT Tracktitle  FROM Tracks WHERE TitleID IN(SELECT Titleid FROM Titles WHERE ArtistID IN(Select ArtistID FROM artists WHERE Entrydate > "2003-10-01"));
+
+5.SELECT ArtistName FROM Artists WHERE ArtistID
+IN(SELECT Artistid FROM Titles WHERE studioID 
+IN(SELECT studioid FROM studios ArtistID
+IN(SELECT ArtistID FROM Artists Where ArtistName = "The Bullets")));

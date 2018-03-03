@@ -1,0 +1,13 @@
+Homework 2
+
+- Problem 1 - Zip -
+
+This program implements object oriented programming.
+
+This program has 2 main functions. First it converts a five digit zip code into a barcoded language (this barcoded
+language was created by the professor). The user enters their zip code and the program then returns the barcode.
+Example: 95014 becomes ||:|:::|:|:||::::::||:|::|:::|||
+
+The second main function of the program is when it converts the carcode into the zip code. The user enters the
+barcode and it returns the zip code.
+Example: ||:|:::|:|:||::::::||:|::|:::||| becomes 95014

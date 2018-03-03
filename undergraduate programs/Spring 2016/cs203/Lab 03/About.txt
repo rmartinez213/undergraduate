@@ -1,0 +1,10 @@
+Lab 3 
+
+- Evaluate Expression - 
+
+This program was created using some Java FX
+
+Evaluate expression is a program that acts similar to a scientific calculator. The purpose of creating this program
+was to ensure that the operations were done correctly such that the equation/expression entered is done correctly
+and in order. Such that in this order Parenthesis, Exponent, Multiplication, Division, Addition, Subtraction.
+

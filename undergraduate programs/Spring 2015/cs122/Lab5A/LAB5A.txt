@@ -1,0 +1,32 @@
+1. Nested functions are functions with in a function. This is typically seen from aggregated
+ functions if we want to find something specific.
+
+2.It's not an error, because "HAVING" filters after the aggregated, while WHERE clause filter
+ before the aggregated function. Therby causing an error.
+
+3. Aggregated Function
+-MAX
+-MIN
+-COUNT
+Non Aggregated Function
+-Month
+-WeekDay
+-Year
+
+4. This will make a table that shows the manufactures (make), then in another column it would
+ display how many total their are, excludes toyota as well.
+
+5.It still returns a function, because the WHERE clause had initially filtered the Nulls thereby
+ allowing the aggregated function to display the correct result.
+
+6. Initially we get the day of the week from the nested function, where inside we subtract the
+ curent date from 11 years.
+
+7.In this query we display the titleID and display the track titiles, from the tracks table
+ but it group them as by using the titleID
+
+8. This query counts how many artists begin in the name "The" anthing other than "The" will not be considered an artist.
+
+9. This query displays salesID, lastName and how many titleIDs, but it adds another row, because it recognizes that there are 2 salesID.
+
+10. SELECT COUNT(DISTINCT SalesID) AS 'SalesPeople' FROM Studios JOIN SalesPeople USING(SalesID);

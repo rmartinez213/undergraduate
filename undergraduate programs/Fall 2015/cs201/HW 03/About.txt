@@ -1,0 +1,27 @@
+Homework 3
+
+- Problem 1 - Order description -
+Input 3 double values that will return a desciption of the order of the values.
+ex. 5 3 1 returns "Strictly Descreasing"
+
+- Problem 2 - Mathematical equation -
+Input several double values and returns the total of the equation
+
+- Problem 3 - Wage calculation -
+Input your hourly wage and number of hours per week. This will return the pay total for that week.
+
+- Problem 4 - Rock Paper Scissors -
+The user inputs 0, 1 or 2. 0 - Rock, 1 - Paper, 2 - Scissors. The ai chooses a random hand and returns the winner.
+
+- Problem 5 - Math tutor -
+Enter an option from the menu and answer the question given. It will then return weather the answer given was
+right or wrong. it will continue asking user for a question until user decides to enter "5".
+
+- Problem 6 - Random Card -
+Run the program and it generate a random card. Such as Jack of Diamonds.
+
+- Problem 7 - Phone toll -
+Enter the starting time of the phone call and enter the length of the call (in minutes). Each time has their own cost
+
+- Problem 8 - Number Palindrone Checker -
+Enter 5 numbers and it will check if the 5 numbers are palindrone.

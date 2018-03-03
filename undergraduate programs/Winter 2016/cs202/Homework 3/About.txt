@@ -1,0 +1,25 @@
+Homework 3
+
+- Problem 3 - Stock market from CSV -
+This program implements object oriented programming.
+
+In order to run this program you must first implement the CSV file contained in this folder.
+I placed the CSV file in my IDE (Eclipse) and was recognized, so you may need to change the directory 
+if you plan on using a different IDE or running this program.
+
+This program recognizes the CSV file and is stored into an Arraylist object upon entering the Parse Data option.
+You can also add stocks, delete stocks and write the new stocks onto the csv file with the save feature in the
+menu.
+
+Parse the input file and use the data to populate the variables for StockPrices. One line of the input file
+corresponds to one StockPrice object, so you should create as many objects as necessary to hold all of the
+data from the file. In each line of the input file, the first value is the date in the format mm/dd/yyyy;
+this needs to be parsed further into the month, day, and year, which are separate variables in StockPrice.
+The second value is the stock symbol, which represents the name of the stock; it is usually an abbreviation
+of the name of the company issuing the stock. The next value is the opening price of the stock for that day,
+the price when the market opened in the morning. The final value is the price of the last sale before the market
+closed. Choose a StockPrice from the array list and delete it. Show the current list of stock prices,
+including their dates and all other fields. The ArrayList of StockPrice objects and write the data to a
+file. The output should be formatted the same way as the given input file. The date should be put back together,
+and each piece of data in the object should be separated by commas. given file name as a string argument and
+parse the file. 

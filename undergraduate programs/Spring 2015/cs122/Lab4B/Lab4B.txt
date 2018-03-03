@@ -1,0 +1,11 @@
+1. SELECT ArtistName, ArtistID FROM Artists LEFT JOIN titles USING (ArtistID) WHERE WebAddress IS NOT NULL AND Title IS NULL;
+2. SELECT FirstName AS Subordinate, Supervisor AS Supervisor FROM SalesPeople WHERE Supervisor IS NOT NULL;
+3.
+A. SELECT DISTINCT FirstName AS Subordinate, Supervisor FROM SalesPeople;
+B.The reason why we have all supervisors and subordinates appearing, because the query is only asking to list the salespeople despite whether or not they have a supervisor.
+C. Those who appeared in the last query appeared, because they all had supervisors, just like the query from this question. In other words, the last query was more specific on the salespersons it wanted.
+4.SELECT SalesID, MemberID AS Clients FROM Salespeople LEFT JOIN Members USING(SalesID) ORDER BY SalesID ASC,MemberID ASC;
+5.SELECT FirstName,SalesID,Region FROM Salespeople RIGHT JOIN Members USING(FirstName,SalesID) WHERE NOT Region = "CA";
+6. 
+A.SELECT FirstName FROM SalesPeople RIGHT JOIN Members USING(FirstName, SalesID) Where Region = "CA" ;
+B. The results are different, because the last query is simply asking for those members who do not live in CA, but this query shows those who live in CA plus those who do not represent a member. In other words, this query is more specific.

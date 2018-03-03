@@ -1,0 +1,43 @@
+Linked List
+
+Linked List is a program that allows you to perform multiple actions to a linked list. This program was created
+using generics, all or if not most has generics implemented.
+
+The menu includes the following:
+
+1. Adding an element to the linked list
+	- Based on the index that you select
+	- Or add at the end of the list
+
+2. Delete an element from the linked list based on index.
+
+3. Verifies if the element entered is in the list.
+
+4. Enter and index and it will return the element that is in that index. 
+	
+5. Gets the index of the element entered into the text box.
+
+6. Returns a statement saying whether the linked list is empty or not empty.
+
+7. Returns the number of elements in the linked list.
+
+8. Enter an index you want to replace and enter the new element you want to replace.
+
+9. Clear the linked list.
+
+10. Exit the program.
+
+Example of menu:
+
+----------Menu----------
+(1) Add an element into the linked list.
+(2) Delete an element from a linked list 
+(3) Check to see if it contains something.
+(4) Get the element at a certain index.
+(5) Get the index of an element.
+(6) Check to see if linked list is empty.
+(7) Get the number of elements in the linked list.
+(8) Replace an element at a specified position.
+(9) Clear the linked list.
+(10) Close application
+

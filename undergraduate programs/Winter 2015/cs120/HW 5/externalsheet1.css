@@ -1,0 +1,6 @@
+pre b {color: gray;}
+pre i {color: silver;}
+pre i b {text-decoration:underline;color:silver;}
+pre i + h3 {letter-spacing:2;}
+pre {background-image:url(http://www.beyondhollywood.com/uploads/2011/04/Call-of-Duty-Call-of-the-Dead-Zombie-Level-Images-3.jpg)}
+body {background-image:url(http://401ak47.com/wp-content/uploads/2011/03/zombie-wallpaper-call-of-duty-zombies-1280x1024.jpg)}

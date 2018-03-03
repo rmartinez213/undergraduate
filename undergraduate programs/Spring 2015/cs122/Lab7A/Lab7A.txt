@@ -1,0 +1,17 @@
+1. Three key statments to managing key statements are: BEGIN, COMMIT, ROLLBACK. 
+2. Atomicity is referring to the transaction. It either places all the information in the transaction or none at all.
+3. To maintain consistency you first insert "Begin;"
+4. Isolation is very imporatant in data base transactions, because it makes easier for the user to focuse on completing other transactions, before actually seeing the results.
+5. 
+A) Persistent means having everything organized, to the point it is easy accesible and also allow for more things to be inputed in the databases.
+B) Durability means beaing able to physically see the changes made, however you could always go back and add more information such as tables. 
+C)"UPDATE" ensures that changes are durable.
+6. If you run a delete statement that contains a FROM clause, but no where clause, then it would delete the whole table.
+7.
+a)	Scripts
+b)	source myfile.sql
+8.This basically adds a new member to the SalesPeople by adding a new salesID, FirstName, LastName, etc.
+9. This basically updates"Liz" "Montbatten" base number by replacing her old number to 30
+10. This deletes the table "Monarchs", only if it exist in the database.
+11. UPDATE Members SET City = "TX" WHERE TX = "Alvarez";
+UPDATE Members SET City = "Alvarez" WHERE City = "Alverez" AND Region = "TX";

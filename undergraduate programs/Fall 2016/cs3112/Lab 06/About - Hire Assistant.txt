@@ -1,0 +1,8 @@
+Hire Assistant
+
+- Hire Assistant -
+
+This program was created to determine which candidate has a greater value then the previous. The time efficiency of this program 
+is n, because it iterates through the list only one time while the best candidate keeps getting updated.
+
+This program highers the first candidate regardless of their value, since they are the first in the interview process (hiring).

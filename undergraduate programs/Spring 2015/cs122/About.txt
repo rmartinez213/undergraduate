@@ -1,0 +1,15 @@
+Class: cs122 (Introduction to Relational Databases)
+Taken: Spring 2015
+
+About: cs122 Introduction to Relational Databasesand the SQL; database design
+using Entity-Relationship, relational, and object-oriented data modeling; database
+implementation; use of SQL, including selection, join, subquery, aggregation, and transaction. 
+My second programming class consisted of seting up and use at least one mainstream database
+management system. Use the SQL query language to express compound search conditions,
+combine and process data from multiple columns or tables, and format the results into
+user-friendly reports.
+
+Notice: I do not have the original sql file that was used in class, because I had the file in my 
+previous laptop. The files in the folders have been untouched since that semester just as my other
+classes here on github. Some of my files do not have sql commands, but rather answers to questions
+that were given.

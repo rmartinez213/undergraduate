@@ -1,0 +1,8 @@
+Midterm
+
+CS202 midterm consisted of validating a user string input. The validation was created using two arrays. One ascending array
+while the other array consisted of the descending position of the word. The arrays were then compared in a loop from 
+ascending position to descending. The program will return what the user entered along with a validation stating whether what
+was entered is a palindrone or not.
+
+Object oriented programming was also implemented, but this program/midterm was mainly focusing on the palindrone aspect.

@@ -1,0 +1,13 @@
+Homework 1 
+
+- Problem 1 - Payroll -
+This program implements object oriented programming. 
+
+When first launched there will be a menu diplayed. Based on user commands you can choose from
+either employee list, issue paycheck, set hours, add employee, delete employee or exit. Employee
+list will display all the employees in the system. Issue paycheck will issue all the paychecks to
+all the employees, reset the amount of hours worked and display the total amount in the paycheck.
+Set hours will have you input the EmployeeID and hours worked. Upon entering both, the information
+is then stored into the program. Add will allow you add an employee to the payroll. Delete will allow
+you delete an employee from the payroll using their EmployeeID. Lastly, none will close the program.
+

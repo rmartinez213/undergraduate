@@ -1,0 +1,6 @@
+Matrix Array
+
+- Matrix Array (Brute Force) -
+
+Matrix Array is done by using brute force method. This method is used doing the row by column method just as like the 
+matrix array in linear algebra.

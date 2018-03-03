@@ -1,0 +1,10 @@
+1.Studios ID
+2.It's not a primary key because it does not have a specfic ID, such as the other primary keys in the other tables.
+3.Title ID references the titles table. It will match with one title only, because there is title field within the titles table, therefor showing the one title per ID.
+4.We need three diferrent table to match members, because each table has a significant ID which defines a certain amount of information.
+5A.RespParty is the primary key
+5B.This is the primary key, because it is not located in other tables unlike the other two keys.
+6a.Yes we could add the member to following sales people.
+6b.Yes you could add the following sales people.
+7. Yes this query returns null, because null is always be null by definiton no matter what.
+Select NULL = NULL

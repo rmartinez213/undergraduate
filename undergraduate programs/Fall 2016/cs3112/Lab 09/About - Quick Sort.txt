@@ -1,0 +1,10 @@
+QuickSort
+
+- QuickSort & Randomize QuickSort -
+
+The quicksort has a divide and conquer design. The program first implements the non randomized quick sort algorithm.
+The program then creates the pivot (the pivot is the last index in the array). If the pivot is less than the j element
+than do nothing, however if the pivot is greater than j element then you increment the i and then swap the j 
+index with the i index. Upon getting to the end of the array, the pivot is then swapped with the index of i + 1.
+
+The samething is done with another array that is randomized (which is much more efficient if the array is not sorted such that 5, 4, 3, 2, 1).

@@ -1,0 +1,30 @@
+h1 {text-align:center}
+H1:hover{background-color:black; color:white;border-style:solid;border-color:gray;outline-style:solid;outline-color:white;outline-width:5px;}
+table{background-image:url(http://ts1.mm.bing.net/th?&id=HN.608040788311542188&w=300&h=300&c=0&pid=1.9&rs=0&p=0)}
+tr,td{border:solid;color:white;vertical-align:none}
+table{borders:1;border-collapse:collapse;empty-cells:none;border-spacing:none}
+td:hover{background-color:gray;color:black;padding-right:5%}
+b:link{background-color:maroon; color:green;}
+body {background-image:url(http://fdrmx.com/wp-content/uploads/2015/01/Imagine-Dragons-%E2%80%98Shots%E2%80%99-Single-Review-FDRMX.jpg)}
+h3{text-align:center;color:black;}
+h3:hover{color:white;text-align:center;background-color:gray;border-style:dotted;border-color:black;border-width:3px;outline-style:dotted;outline-color:white;outline-width:3px;}
+.link1{bottom:0;left:5;list-style-type:none;position:fixed;margin-bottom:140px;color:black;text-decoration:none;margin-left:30px;}
+.link2{bottom:0;left:5;list-style-type:none;position:fixed;margin-bottom:95px;color:black;text-decoration:none;margin-left:30px;}
+.link3{bottom:0;left:5;list-style-type:none;position:fixed;margin-bottom:50px;color:black;text-decoration:none;margin-left:30px;}
+.link4{bottom:0;left:5;position:fixed;list-style-type:none;margin-bottom:5px;color:black;text-decoration:none;margin-left:30px;}
+ul li a h4:hover{color:black;background-color:white}
+ul li a h4:active{color:red;background-color:black}
+ul li a h4 {display:box;width:100px;background-color:black;color:white;text-align:center;border-style:solid;border-color:white;}
+H2{Background-color:gray;color:black;text-align:center;border-style:solid;border-color:black;border-width:3px;outline-style:solid;outline-color:white;outline-width:2px}
+H2:hover{background-color:black;color:gray;text-align:center;border-style:solid;border-color:white;border-width:3px;outline-style:solid;outline-color:black;outline-width:2px}
+h4{text-align:center}
+h4 a:link{color:gray;}
+a:visited{color:white;}
+h4 a:active{color:black;background-color:gray}
+.kendrick:focus{background-color:black;color:gray}
+.lamar:focus{background-color:gray;color:black}
+b{font-size:24px;margin-bottom:20%;color:white;}
+.ul1{list-style-type:none;color:white}
+h4 i{visibility:hidden}
+i ul {list-style-image:url(http://25.media.tumblr.com/f863bacb72519e624147fd14cefd6919/tumblr_n09912QKAo1t1cxp2o4_250.gif);margin-left:160px;color:white;}
+.fin:focus{background-color:black;color:white;overflow:scroll}

@@ -1,0 +1,17 @@
+Homework 3
+
+Word Guessing Game
+
+This program was created using Java FX.
+
+Word guessing game is a program that is identical to hang man. However instead of displaying a hanging person,
+the program displays circles. The circles represent how many attmepts you have left before solving the word. 
+A word is randomly generated, and the user has to enter a letter on each attempt. Upon entering each letter,
+the program displays if the user is correct or wrong. Upon losing or winning the user is then asked if they
+want to play the game again.
+
+The program randomly selects a word from a preseted array. The correct letters replace each '_'. 
+There is also a counter variable that decrements each time that the user gets an incorrect letter.
+Each correct letter and incorrect letter is stored to a variable as well so that it displays the
+incorrect letters to the user, so that they know what letters were entered previously. The program 
+will set the radius of each circle to zero (hence disappearing) for each wrong response. 

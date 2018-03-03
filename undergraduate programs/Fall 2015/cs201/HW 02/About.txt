@@ -1,0 +1,27 @@
+Homework 2
+
+- Problem 1 - Mixed Operations -
+Takes an integer input of 2 numbers that will do addition, difference, product, average, max and min.
+
+- Problem 2 - Temprature conversion -
+Takes an integer input that converts a celcius value to fahrenheit and a fahrenheit value to celcius.
+
+- Problem 3 - Pyramid Object: Area, Volume -
+Takes 3 double input values: length, width and height. Prints out area and volume on console.
+
+- Problem 4 - Distance difference -
+Takes in 4 double inputs and takes the distance difference between the coordinates of those inputed.
+
+- Problem 5 - Weather -
+Takes in two double inputs that will return the weather.
+
+- Problem 6 - Tickets sales - 
+Takes 3 type of tickets (Class A, B, C). Each has it's own price and it accumilates all ticket sales.
+
+- Problem 7 - Movie ticket sale report - 
+Takes in child ticket price, adult ticket price and movie company percentage. Returns the net and gross revenue
+of the sales based on the values entered from user.
+
+- Problem 8 - Dinner reciept
+Takes in 3 double values and 1 integer value: subtotal, tip, tax and party total. Returns the computation of each 
+including tax, tip, total and total for each person.

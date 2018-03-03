@@ -1,0 +1,10 @@
+Customer list
+
+- Homework 3 - List -
+
+Customer list is a program that uses an Array list to create a table in which the user can add, edit or delete
+items from the list. This table features the ability to search any name by using the search bar. The search feature is implemented
+by using a form in jsp and setting that parameter and then calling the post method of the servlet. Upon getting to the post method, 
+the method then grabs the attribute from the jsp file and is stored onto a string variable. The string variable is then compared with 
+all the names in the bean and the result is then stored to an attribute. The servlet then redirects back to the jsp and displays the
+results with the filtered list.

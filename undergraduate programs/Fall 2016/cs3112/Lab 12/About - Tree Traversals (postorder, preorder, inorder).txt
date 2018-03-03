@@ -1,0 +1,9 @@
+Lab 12
+
+- Pseudocode of Pre-Order, In-Order, Post-Order -
+
+This txt file contains the pseudocode of the tree treversals, such as inorder preorder and postorder.
+
+Preorder - Root, Left, Right
+Inorder - Left, Root, Right
+Post Order - Left, Right, Root
