@@ -1,6 +1,6 @@
 # undergraduate
 This repository will contain all of the programs that was contained in the database of csns that I created during my undergraduate year.
-This repository is missing a few programs from a small number of classes as well.
+This repository is missing a few programs from a small number of classes as well, because it was not until my junior year that I began using GitHub and had to manually retrieve my projects/programs from the previous quarters/semesters.
 
 Most of the folder assigments will contain a read me file that will contain either the objective of the program or how the program
 was accomplished. My undergraduate folder contains programs written in various language such as HTML, CSS, Python, Java, C++,
